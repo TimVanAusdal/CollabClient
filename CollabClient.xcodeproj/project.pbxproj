@@ -12,6 +12,33 @@
 		19C33239223F30610084E54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C33237223F30610084E54C /* Main.storyboard */; };
 		19C3323B223F30610084E54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C3323A223F30610084E54C /* Assets.xcassets */; };
 		19C3323E223F30610084E54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3323C223F30610084E54C /* LaunchScreen.storyboard */; };
+		19C33249223F31E40084E54C /* CollabAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33245223F31E40084E54C /* CollabAccountView.swift */; };
+		19C3324A223F31E40084E54C /* CollabGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33246223F31E40084E54C /* CollabGeneralView.swift */; };
+		19C3324B223F31E40084E54C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33247223F31E40084E54C /* SignUpViewController.swift */; };
+		19C3324C223F31E40084E54C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33248223F31E40084E54C /* LoginViewController.swift */; };
+		19C33258223F32EE0084E54C /* map.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C3324F223F32ED0084E54C /* map.PNG */; };
+		19C33259223F32EE0084E54C /* collab payment info.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33250223F32ED0084E54C /* collab payment info.PNG */; };
+		19C3325A223F32EE0084E54C /* mountain background.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C33251223F32ED0084E54C /* mountain background.png */; };
+		19C3325B223F32EE0084E54C /* discover.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33252223F32ED0084E54C /* discover.PNG */; };
+		19C3325C223F32EE0084E54C /* log in.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33253223F32ED0084E54C /* log in.PNG */; };
+		19C3325D223F32EE0084E54C /* top part.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33254223F32EE0084E54C /* top part.PNG */; };
+		19C3325E223F32EE0084E54C /* search.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33255223F32EE0084E54C /* search.PNG */; };
+		19C3325F223F32EE0084E54C /* sign up.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33256223F32EE0084E54C /* sign up.PNG */; };
+		19C33260223F32EE0084E54C /* profile info.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33257223F32EE0084E54C /* profile info.PNG */; };
+		19C33262223F33BA0084E54C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33261223F33BA0084E54C /* TabBarController.swift */; };
+		19C33264223F341C0084E54C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33263223F341C0084E54C /* AccountViewController.swift */; };
+		19C33266223F35E90084E54C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33265223F35E90084E54C /* ProfileViewController.swift */; };
+		19C33268223F36000084E54C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33267223F36000084E54C /* SearchViewController.swift */; };
+		19C3326A223F36160084E54C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33269223F36160084E54C /* DiscoverViewController.swift */; };
+		19C3326C223F36260084E54C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326B223F36260084E54C /* MapViewController.swift */; };
+		19C3326E223F37280084E54C /* TabGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326D223F37280084E54C /* TabGeneralView.swift */; };
+		19C33270223F4FC30084E54C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326F223F4FC30084E54C /* AppView.swift */; };
+		19C33274223F747D0084E54C /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33273223F747D0084E54C /* tabView.swift */; };
+		19C33276223FFCD00084E54C /* CollabSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33275223FFCD00084E54C /* CollabSignupView.swift */; };
+		19C33278224050630084E54C /* CollabLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33277224050630084E54C /* CollabLoginView.swift */; };
+		19C3327A224053B90084E54C /* Nyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C33279224053B90084E54C /* Nyan.png */; };
+		19C3327C2240578B0084E54C /* CollabSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3327B2240578B0084E54C /* CollabSearchView.swift */; };
+		19C3327E224067890084E54C /* CollabDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3327D224067890084E54C /* CollabDiscoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +49,33 @@
 		19C3323A223F30610084E54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19C3323D223F30610084E54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19C3323F223F30610084E54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C33245223F31E40084E54C /* CollabAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollabAccountView.swift; path = ../../Collab/Collab/CollabAccountView.swift; sourceTree = "<group>"; };
+		19C33246223F31E40084E54C /* CollabGeneralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollabGeneralView.swift; path = ../../Collab/Collab/CollabGeneralView.swift; sourceTree = "<group>"; };
+		19C33247223F31E40084E54C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../Collab/Collab/SignUpViewController.swift; sourceTree = "<group>"; };
+		19C33248223F31E40084E54C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../Collab/Collab/LoginViewController.swift; sourceTree = "<group>"; };
+		19C3324F223F32ED0084E54C /* map.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.PNG; path = "../collab photos/map.PNG"; sourceTree = "<group>"; };
+		19C33250223F32ED0084E54C /* collab payment info.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "collab payment info.PNG"; path = "../collab photos/collab payment info.PNG"; sourceTree = "<group>"; };
+		19C33251223F32ED0084E54C /* mountain background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mountain background.png"; path = "../collab photos/mountain background.png"; sourceTree = "<group>"; };
+		19C33252223F32ED0084E54C /* discover.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = discover.PNG; path = "../collab photos/discover.PNG"; sourceTree = "<group>"; };
+		19C33253223F32ED0084E54C /* log in.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "log in.PNG"; path = "../collab photos/log in.PNG"; sourceTree = "<group>"; };
+		19C33254223F32EE0084E54C /* top part.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "top part.PNG"; path = "../collab photos/top part.PNG"; sourceTree = "<group>"; };
+		19C33255223F32EE0084E54C /* search.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.PNG; path = "../collab photos/search.PNG"; sourceTree = "<group>"; };
+		19C33256223F32EE0084E54C /* sign up.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign up.PNG"; path = "../collab photos/sign up.PNG"; sourceTree = "<group>"; };
+		19C33257223F32EE0084E54C /* profile info.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile info.PNG"; path = "../collab photos/profile info.PNG"; sourceTree = "<group>"; };
+		19C33261223F33BA0084E54C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		19C33263223F341C0084E54C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		19C33265223F35E90084E54C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		19C33267223F36000084E54C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		19C33269223F36160084E54C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		19C3326B223F36260084E54C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		19C3326D223F37280084E54C /* TabGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGeneralView.swift; sourceTree = "<group>"; };
+		19C3326F223F4FC30084E54C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		19C33273223F747D0084E54C /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
+		19C33275223FFCD00084E54C /* CollabSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabSignupView.swift; sourceTree = "<group>"; };
+		19C33277224050630084E54C /* CollabLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabLoginView.swift; sourceTree = "<group>"; };
+		19C33279224053B90084E54C /* Nyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nyan.png; path = ../Nyan.png; sourceTree = "<group>"; };
+		19C3327B2240578B0084E54C /* CollabSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabSearchView.swift; sourceTree = "<group>"; };
+		19C3327D224067890084E54C /* CollabDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabDiscoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +92,16 @@
 		19C33227223F30610084E54C = {
 			isa = PBXGroup;
 			children = (
+				19C33279224053B90084E54C /* Nyan.png */,
+				19C33250223F32ED0084E54C /* collab payment info.PNG */,
+				19C33252223F32ED0084E54C /* discover.PNG */,
+				19C33253223F32ED0084E54C /* log in.PNG */,
+				19C3324F223F32ED0084E54C /* map.PNG */,
+				19C33251223F32ED0084E54C /* mountain background.png */,
+				19C33257223F32EE0084E54C /* profile info.PNG */,
+				19C33255223F32EE0084E54C /* search.PNG */,
+				19C33256223F32EE0084E54C /* sign up.PNG */,
+				19C33254223F32EE0084E54C /* top part.PNG */,
 				19C33232223F30610084E54C /* CollabClient */,
 				19C33231223F30610084E54C /* Products */,
 			);
@@ -54,12 +118,29 @@
 		19C33232223F30610084E54C /* CollabClient */ = {
 			isa = PBXGroup;
 			children = (
+				19C33246223F31E40084E54C /* CollabGeneralView.swift */,
+				19C3327D224067890084E54C /* CollabDiscoverView.swift */,
+				19C3327B2240578B0084E54C /* CollabSearchView.swift */,
+				19C33277224050630084E54C /* CollabLoginView.swift */,
+				19C3326D223F37280084E54C /* TabGeneralView.swift */,
+				19C33275223FFCD00084E54C /* CollabSignupView.swift */,
+				19C33245223F31E40084E54C /* CollabAccountView.swift */,
+				19C3326F223F4FC30084E54C /* AppView.swift */,
+				19C33261223F33BA0084E54C /* TabBarController.swift */,
+				19C33273223F747D0084E54C /* tabView.swift */,
 				19C33233223F30610084E54C /* AppDelegate.swift */,
-				19C33235223F30610084E54C /* ViewController.swift */,
-				19C33237223F30610084E54C /* Main.storyboard */,
 				19C3323A223F30610084E54C /* Assets.xcassets */,
+				19C33263223F341C0084E54C /* AccountViewController.swift */,
+				19C33248223F31E40084E54C /* LoginViewController.swift */,
+				19C33247223F31E40084E54C /* SignUpViewController.swift */,
+				19C33237223F30610084E54C /* Main.storyboard */,
+				19C33265223F35E90084E54C /* ProfileViewController.swift */,
 				19C3323C223F30610084E54C /* LaunchScreen.storyboard */,
+				19C33267223F36000084E54C /* SearchViewController.swift */,
 				19C3323F223F30610084E54C /* Info.plist */,
+				19C3326B223F36260084E54C /* MapViewController.swift */,
+				19C33235223F30610084E54C /* ViewController.swift */,
+				19C33269223F36160084E54C /* DiscoverViewController.swift */,
 			);
 			path = CollabClient;
 			sourceTree = "<group>";
@@ -123,9 +204,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C33260223F32EE0084E54C /* profile info.PNG in Resources */,
+				19C33258223F32EE0084E54C /* map.PNG in Resources */,
+				19C3325F223F32EE0084E54C /* sign up.PNG in Resources */,
+				19C3325A223F32EE0084E54C /* mountain background.png in Resources */,
 				19C3323E223F30610084E54C /* LaunchScreen.storyboard in Resources */,
 				19C3323B223F30610084E54C /* Assets.xcassets in Resources */,
+				19C33259223F32EE0084E54C /* collab payment info.PNG in Resources */,
+				19C3325E223F32EE0084E54C /* search.PNG in Resources */,
+				19C3325D223F32EE0084E54C /* top part.PNG in Resources */,
 				19C33239223F30610084E54C /* Main.storyboard in Resources */,
+				19C3325C223F32EE0084E54C /* log in.PNG in Resources */,
+				19C3325B223F32EE0084E54C /* discover.PNG in Resources */,
+				19C3327A224053B90084E54C /* Nyan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +227,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C33268223F36000084E54C /* SearchViewController.swift in Sources */,
+				19C3327E224067890084E54C /* CollabDiscoverView.swift in Sources */,
+				19C3324C223F31E40084E54C /* LoginViewController.swift in Sources */,
+				19C3324A223F31E40084E54C /* CollabGeneralView.swift in Sources */,
+				19C33264223F341C0084E54C /* AccountViewController.swift in Sources */,
 				19C33236223F30610084E54C /* ViewController.swift in Sources */,
 				19C33234223F30610084E54C /* AppDelegate.swift in Sources */,
+				19C33262223F33BA0084E54C /* TabBarController.swift in Sources */,
+				19C3326C223F36260084E54C /* MapViewController.swift in Sources */,
+				19C33266223F35E90084E54C /* ProfileViewController.swift in Sources */,
+				19C3326E223F37280084E54C /* TabGeneralView.swift in Sources */,
+				19C33270223F4FC30084E54C /* AppView.swift in Sources */,
+				19C3326A223F36160084E54C /* DiscoverViewController.swift in Sources */,
+				19C33274223F747D0084E54C /* tabView.swift in Sources */,
+				19C33249223F31E40084E54C /* CollabAccountView.swift in Sources */,
+				19C3324B223F31E40084E54C /* SignUpViewController.swift in Sources */,
+				19C33276223FFCD00084E54C /* CollabSignupView.swift in Sources */,
+				19C33278224050630084E54C /* CollabLoginView.swift in Sources */,
+				19C3327C2240578B0084E54C /* CollabSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

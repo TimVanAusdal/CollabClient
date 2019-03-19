@@ -16,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.rootViewController = UIViewController()
+        window?.rootViewController?.view = CollabGeneralView()
+        //let genBounds = window?.rootViewController?.view.bounds
+        
+        
+       // acView.bounds = CGRect(x: (genBounds?.minX)!, y: (genBounds?.minY)!, width: (genBounds?.width)!, height: (genBounds?.height)! * CGFloat(0.92))
+        
+        //window?.rootViewController?.view.backgroundColor = .blue
+        
+        //window?.rootViewController?.view.addSubview(acView)
+        
+        window?.makeKeyAndVisible()
         return true
     }
 
