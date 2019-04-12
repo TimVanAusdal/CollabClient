@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollabSearchView: UIView {
+class SearchGeneralView: UIView {
     
     
     lazy var searchView: UIView = {
@@ -67,13 +67,52 @@ class CollabSearchView: UIView {
         self.addSubview(view)
         return view
     }()
+    var searchButton: UIButton = UIButton()
+    //top image with word collab and profile
+    lazy var headerView: UIView = {
+        let view = self
+        let logoImage = UIImage(named: "top part.PNG")
+        let logoView = UIImageView(image: logoImage)
+        
+        self.addSubview(logoView)
+        return logoView
+    }()
     
+    //View To switch tabs with
+    lazy var tabView: CollabTabGeneralView = {
+        let view = CollabTabGeneralView()
+        self.addSubview(view)
+        return view
+    }()
+    
+    
+    //layout
     
     
     override func layoutSubviews(){
+        
         super.layoutSubviews()
         
+        let ratio:CGFloat = 0.12
         var rect = bounds
+        
+        (headerView.frame, rect) = rect.divided(atDistance: rect.height * ratio , from: .minYEdge)
+        (searchView.frame, tabView.frame) = rect.divided(atDistance: rect.height * (1.0 - ratio), from: .minYEdge)
+        
+        //borders
+        
+        let TopBorder: UIView = UIView()
+        TopBorder.backgroundColor = UIColor.black
+        TopBorder.frame = CGRect(x: 0.0, y: rect.minY - 3.0, width: rect.width, height: 3.0)
+        self.addSubview(TopBorder)
+        
+        let BottomBorder: UIView = UIView()
+        BottomBorder.backgroundColor = UIColor.black
+        BottomBorder.frame = CGRect(x: 0.0, y: rect.height * (1.0 - ratio) + rect.minY, width: bounds.width, height: 3.0)
+        self.addSubview(BottomBorder)
+        
+        //text
+        rect = searchView.frame
         innerView.frame = rect
         
         let viewSize = rect.height * 0.197
@@ -133,7 +172,8 @@ class CollabSearchView: UIView {
         
         //
         
-        //bound the top 20% of screen to be a headerview
-        //(bottomView.frame, rect) = rect.divided(atDistance: bounds.height * ratio.1 , from: .maxYEdge)
+        //borders
+        
+
     }
 }

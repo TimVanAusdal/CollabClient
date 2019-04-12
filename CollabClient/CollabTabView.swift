@@ -8,7 +8,7 @@
 
 import UIKit
 
-class tabView: UIView {
+class CollabTabView: UIView {
     
     var label: UILabel = UILabel()
     var button: UIButton = UIButton()
@@ -24,12 +24,14 @@ class tabView: UIView {
         
         button.setTitle("go!", for: .normal)
         
+        
         let nyan: UIImage = UIImage(named: "sign up.PNG")!
-        //let nyanImage: UIImageView = UIImageView(nyan)
         
         button.setBackgroundImage(nyan, for: UIControlState.normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         addSubview(button)
+        
+        //layout
         
         let views = ["label":label, "button": button] as [String : Any]
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[label]|", options: [], metrics: nil, views: views))

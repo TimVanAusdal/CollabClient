@@ -7,75 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196728D62252E555003BFED1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196728D52252E555003BFED1 /* HomeView.swift */; };
+		196728DA2252EB7B003BFED1 /* AccountLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196728D92252EB7B003BFED1 /* AccountLoginViewController.swift */; };
+		196728DC2252EF57003BFED1 /* AccountSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196728DB2252EF57003BFED1 /* AccountSignupViewController.swift */; };
+		197D78A72246E4B00036996C /* AccountCustomizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D78A62246E4B00036996C /* AccountCustomizerView.swift */; };
+		197D78AD2246E6D60036996C /* CollabUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D78AC2246E6D60036996C /* CollabUser.swift */; };
+		197D78B522487BE00036996C /* AccountInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D78B422487BE00036996C /* AccountInitialViewController.swift */; };
+		199F2EF32252F774002C8C46 /* SearchGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2EF22252F774002C8C46 /* SearchGeneralViewController.swift */; };
+		199F2F01225ACFF2002C8C46 /* AboutGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F00225ACFF2002C8C46 /* AboutGeneralViewController.swift */; };
+		199F2F03225AD434002C8C46 /* AboutGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F02225AD434002C8C46 /* AboutGeneralView.swift */; };
+		199F2F07225AD48F002C8C46 /* AccountCustomizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F06225AD48F002C8C46 /* AccountCustomizerViewController.swift */; };
+		199F2F09225AD85E002C8C46 /* ProfileGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F08225AD85E002C8C46 /* ProfileGeneralView.swift */; };
+		199F2F0B225AD986002C8C46 /* ProfileGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F0A225AD986002C8C46 /* ProfileGeneralViewController.swift */; };
+		199F2F0D225B2814002C8C46 /* tempFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F0C225B2814002C8C46 /* tempFileView.swift */; };
+		199F2F0F225B2832002C8C46 /* TempFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F0E225B2832002C8C46 /* TempFileViewController.swift */; };
+		199F2F13225B2D17002C8C46 /* ProfileOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F12225B2D16002C8C46 /* ProfileOtherView.swift */; };
+		199F2F15225B2E8F002C8C46 /* SearchProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F14225B2E8F002C8C46 /* SearchProfileView.swift */; };
+		199F2F17225D6FBB002C8C46 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2F16225D6FBB002C8C46 /* AppController.swift */; };
+		199F2F1F225DF6D5002C8C46 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F1C225DF6D4002C8C46 /* facebook.png */; };
+		199F2F20225DF6D5002C8C46 /* instagram logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F1D225DF6D4002C8C46 /* instagram logo.jpeg */; };
+		199F2F25225DFB0F002C8C46 /* twitter logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F24225DFB0F002C8C46 /* twitter logo.jpg */; };
+		199F2F27225E8CAF002C8C46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F26225E8CAF002C8C46 /* Default-568h@2x.png */; };
+		199F2F292260DC3E002C8C46 /* back arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F282260DC3E002C8C46 /* back arrow.png */; };
+		199F2F2B2260DCA0002C8C46 /* profile image.png in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F2A2260DCA0002C8C46 /* profile image.png */; };
+		199F2F2D2260DCB4002C8C46 /* search image.png in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F2C2260DCB4002C8C46 /* search image.png */; };
+		199F2F2F2260E236002C8C46 /* top part.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 199F2F2E2260E236002C8C46 /* top part.PNG */; };
 		19C33234223F30610084E54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33233223F30610084E54C /* AppDelegate.swift */; };
-		19C33236223F30610084E54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33235223F30610084E54C /* ViewController.swift */; };
-		19C33239223F30610084E54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C33237223F30610084E54C /* Main.storyboard */; };
 		19C3323B223F30610084E54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C3323A223F30610084E54C /* Assets.xcassets */; };
-		19C3323E223F30610084E54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3323C223F30610084E54C /* LaunchScreen.storyboard */; };
-		19C33249223F31E40084E54C /* CollabAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33245223F31E40084E54C /* CollabAccountView.swift */; };
+		19C33249223F31E40084E54C /* AccountInitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33245223F31E40084E54C /* AccountInitialView.swift */; };
 		19C3324A223F31E40084E54C /* CollabGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33246223F31E40084E54C /* CollabGeneralView.swift */; };
-		19C3324B223F31E40084E54C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33247223F31E40084E54C /* SignUpViewController.swift */; };
-		19C3324C223F31E40084E54C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33248223F31E40084E54C /* LoginViewController.swift */; };
 		19C33258223F32EE0084E54C /* map.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C3324F223F32ED0084E54C /* map.PNG */; };
 		19C33259223F32EE0084E54C /* collab payment info.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33250223F32ED0084E54C /* collab payment info.PNG */; };
 		19C3325A223F32EE0084E54C /* mountain background.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C33251223F32ED0084E54C /* mountain background.png */; };
 		19C3325B223F32EE0084E54C /* discover.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33252223F32ED0084E54C /* discover.PNG */; };
 		19C3325C223F32EE0084E54C /* log in.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33253223F32ED0084E54C /* log in.PNG */; };
-		19C3325D223F32EE0084E54C /* top part.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33254223F32EE0084E54C /* top part.PNG */; };
 		19C3325E223F32EE0084E54C /* search.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33255223F32EE0084E54C /* search.PNG */; };
 		19C3325F223F32EE0084E54C /* sign up.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33256223F32EE0084E54C /* sign up.PNG */; };
 		19C33260223F32EE0084E54C /* profile info.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 19C33257223F32EE0084E54C /* profile info.PNG */; };
-		19C33262223F33BA0084E54C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33261223F33BA0084E54C /* TabBarController.swift */; };
-		19C33264223F341C0084E54C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33263223F341C0084E54C /* AccountViewController.swift */; };
-		19C33266223F35E90084E54C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33265223F35E90084E54C /* ProfileViewController.swift */; };
-		19C33268223F36000084E54C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33267223F36000084E54C /* SearchViewController.swift */; };
-		19C3326A223F36160084E54C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33269223F36160084E54C /* DiscoverViewController.swift */; };
-		19C3326C223F36260084E54C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326B223F36260084E54C /* MapViewController.swift */; };
-		19C3326E223F37280084E54C /* TabGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326D223F37280084E54C /* TabGeneralView.swift */; };
-		19C33270223F4FC30084E54C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326F223F4FC30084E54C /* AppView.swift */; };
-		19C33274223F747D0084E54C /* tabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33273223F747D0084E54C /* tabView.swift */; };
-		19C33276223FFCD00084E54C /* CollabSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33275223FFCD00084E54C /* CollabSignupView.swift */; };
-		19C33278224050630084E54C /* CollabLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33277224050630084E54C /* CollabLoginView.swift */; };
+		19C3326E223F37280084E54C /* CollabTabGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3326D223F37280084E54C /* CollabTabGeneralView.swift */; };
+		19C33274223F747D0084E54C /* CollabTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33273223F747D0084E54C /* CollabTabView.swift */; };
+		19C33276223FFCD00084E54C /* AccountSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33275223FFCD00084E54C /* AccountSignupView.swift */; };
+		19C33278224050630084E54C /* AccountLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C33277224050630084E54C /* AccountLoginView.swift */; };
 		19C3327A224053B90084E54C /* Nyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C33279224053B90084E54C /* Nyan.png */; };
-		19C3327C2240578B0084E54C /* CollabSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3327B2240578B0084E54C /* CollabSearchView.swift */; };
-		19C3327E224067890084E54C /* CollabDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3327D224067890084E54C /* CollabDiscoverView.swift */; };
+		19C3327C2240578B0084E54C /* SearchGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3327B2240578B0084E54C /* SearchGeneralView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		196728D52252E555003BFED1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		196728D92252EB7B003BFED1 /* AccountLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountLoginViewController.swift; sourceTree = "<group>"; };
+		196728DB2252EF57003BFED1 /* AccountSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSignupViewController.swift; sourceTree = "<group>"; };
+		197D78A62246E4B00036996C /* AccountCustomizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCustomizerView.swift; sourceTree = "<group>"; };
+		197D78AC2246E6D60036996C /* CollabUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabUser.swift; sourceTree = "<group>"; };
+		197D78B422487BE00036996C /* AccountInitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInitialViewController.swift; sourceTree = "<group>"; };
+		199F2EF22252F774002C8C46 /* SearchGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGeneralViewController.swift; sourceTree = "<group>"; };
+		199F2F00225ACFF2002C8C46 /* AboutGeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutGeneralViewController.swift; sourceTree = "<group>"; };
+		199F2F02225AD434002C8C46 /* AboutGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutGeneralView.swift; sourceTree = "<group>"; };
+		199F2F06225AD48F002C8C46 /* AccountCustomizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCustomizerViewController.swift; sourceTree = "<group>"; };
+		199F2F08225AD85E002C8C46 /* ProfileGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGeneralView.swift; sourceTree = "<group>"; };
+		199F2F0A225AD986002C8C46 /* ProfileGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileGeneralViewController.swift; sourceTree = "<group>"; };
+		199F2F0C225B2814002C8C46 /* tempFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempFileView.swift; sourceTree = "<group>"; };
+		199F2F0E225B2832002C8C46 /* TempFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFileViewController.swift; sourceTree = "<group>"; };
+		199F2F12225B2D16002C8C46 /* ProfileOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOtherView.swift; sourceTree = "<group>"; };
+		199F2F14225B2E8F002C8C46 /* SearchProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchProfileView.swift; sourceTree = "<group>"; };
+		199F2F16225D6FBB002C8C46 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		199F2F1C225DF6D4002C8C46 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = ../facebook.png; sourceTree = "<group>"; };
+		199F2F1D225DF6D4002C8C46 /* instagram logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "instagram logo.jpeg"; path = "../instagram logo.jpeg"; sourceTree = "<group>"; };
+		199F2F24225DFB0F002C8C46 /* twitter logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "twitter logo.jpg"; path = "../twitter logo.jpg"; sourceTree = "<group>"; };
+		199F2F26225E8CAF002C8C46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		199F2F282260DC3E002C8C46 /* back arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back arrow.png"; path = "../back arrow.png"; sourceTree = "<group>"; };
+		199F2F2A2260DCA0002C8C46 /* profile image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile image.png"; path = "../profile image.png"; sourceTree = "<group>"; };
+		199F2F2C2260DCB4002C8C46 /* search image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search image.png"; path = "../search image.png"; sourceTree = "<group>"; };
+		199F2F2E2260E236002C8C46 /* top part.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "top part.PNG"; path = "../top part.PNG"; sourceTree = "<group>"; };
 		19C33230223F30610084E54C /* CollabClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollabClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C33233223F30610084E54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19C33235223F30610084E54C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19C33238223F30610084E54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19C3323A223F30610084E54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		19C3323D223F30610084E54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19C3323F223F30610084E54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19C33245223F31E40084E54C /* CollabAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollabAccountView.swift; path = ../../Collab/Collab/CollabAccountView.swift; sourceTree = "<group>"; };
+		19C33245223F31E40084E54C /* AccountInitialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountInitialView.swift; path = ../../Collab/Collab/AccountInitialView.swift; sourceTree = "<group>"; };
 		19C33246223F31E40084E54C /* CollabGeneralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollabGeneralView.swift; path = ../../Collab/Collab/CollabGeneralView.swift; sourceTree = "<group>"; };
-		19C33247223F31E40084E54C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../Collab/Collab/SignUpViewController.swift; sourceTree = "<group>"; };
-		19C33248223F31E40084E54C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../Collab/Collab/LoginViewController.swift; sourceTree = "<group>"; };
 		19C3324F223F32ED0084E54C /* map.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.PNG; path = "../collab photos/map.PNG"; sourceTree = "<group>"; };
 		19C33250223F32ED0084E54C /* collab payment info.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "collab payment info.PNG"; path = "../collab photos/collab payment info.PNG"; sourceTree = "<group>"; };
 		19C33251223F32ED0084E54C /* mountain background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mountain background.png"; path = "../collab photos/mountain background.png"; sourceTree = "<group>"; };
 		19C33252223F32ED0084E54C /* discover.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = discover.PNG; path = "../collab photos/discover.PNG"; sourceTree = "<group>"; };
 		19C33253223F32ED0084E54C /* log in.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "log in.PNG"; path = "../collab photos/log in.PNG"; sourceTree = "<group>"; };
-		19C33254223F32EE0084E54C /* top part.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "top part.PNG"; path = "../collab photos/top part.PNG"; sourceTree = "<group>"; };
 		19C33255223F32EE0084E54C /* search.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.PNG; path = "../collab photos/search.PNG"; sourceTree = "<group>"; };
 		19C33256223F32EE0084E54C /* sign up.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sign up.PNG"; path = "../collab photos/sign up.PNG"; sourceTree = "<group>"; };
 		19C33257223F32EE0084E54C /* profile info.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile info.PNG"; path = "../collab photos/profile info.PNG"; sourceTree = "<group>"; };
-		19C33261223F33BA0084E54C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		19C33263223F341C0084E54C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
-		19C33265223F35E90084E54C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		19C33267223F36000084E54C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		19C33269223F36160084E54C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		19C3326B223F36260084E54C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		19C3326D223F37280084E54C /* TabGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGeneralView.swift; sourceTree = "<group>"; };
-		19C3326F223F4FC30084E54C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		19C33273223F747D0084E54C /* tabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView.swift; sourceTree = "<group>"; };
-		19C33275223FFCD00084E54C /* CollabSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabSignupView.swift; sourceTree = "<group>"; };
-		19C33277224050630084E54C /* CollabLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabLoginView.swift; sourceTree = "<group>"; };
+		19C3326D223F37280084E54C /* CollabTabGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabTabGeneralView.swift; sourceTree = "<group>"; };
+		19C33273223F747D0084E54C /* CollabTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabTabView.swift; sourceTree = "<group>"; };
+		19C33275223FFCD00084E54C /* AccountSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSignupView.swift; sourceTree = "<group>"; };
+		19C33277224050630084E54C /* AccountLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLoginView.swift; sourceTree = "<group>"; };
 		19C33279224053B90084E54C /* Nyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nyan.png; path = ../Nyan.png; sourceTree = "<group>"; };
-		19C3327B2240578B0084E54C /* CollabSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabSearchView.swift; sourceTree = "<group>"; };
-		19C3327D224067890084E54C /* CollabDiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollabDiscoverView.swift; sourceTree = "<group>"; };
+		19C3327B2240578B0084E54C /* SearchGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGeneralView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,18 +114,25 @@
 		19C33227223F30610084E54C = {
 			isa = PBXGroup;
 			children = (
-				19C33279224053B90084E54C /* Nyan.png */,
+				199F2F2E2260E236002C8C46 /* top part.PNG */,
+				199F2F2C2260DCB4002C8C46 /* search image.png */,
+				199F2F2A2260DCA0002C8C46 /* profile image.png */,
+				199F2F282260DC3E002C8C46 /* back arrow.png */,
 				19C33250223F32ED0084E54C /* collab payment info.PNG */,
+				19C33232223F30610084E54C /* CollabClient */,
+				199F2F26225E8CAF002C8C46 /* Default-568h@2x.png */,
 				19C33252223F32ED0084E54C /* discover.PNG */,
+				199F2F1C225DF6D4002C8C46 /* facebook.png */,
+				199F2F1D225DF6D4002C8C46 /* instagram logo.jpeg */,
 				19C33253223F32ED0084E54C /* log in.PNG */,
 				19C3324F223F32ED0084E54C /* map.PNG */,
 				19C33251223F32ED0084E54C /* mountain background.png */,
+				19C33279224053B90084E54C /* Nyan.png */,
+				19C33231223F30610084E54C /* Products */,
 				19C33257223F32EE0084E54C /* profile info.PNG */,
 				19C33255223F32EE0084E54C /* search.PNG */,
 				19C33256223F32EE0084E54C /* sign up.PNG */,
-				19C33254223F32EE0084E54C /* top part.PNG */,
-				19C33232223F30610084E54C /* CollabClient */,
-				19C33231223F30610084E54C /* Products */,
+				199F2F24225DFB0F002C8C46 /* twitter logo.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,29 +147,33 @@
 		19C33232223F30610084E54C /* CollabClient */ = {
 			isa = PBXGroup;
 			children = (
-				19C33246223F31E40084E54C /* CollabGeneralView.swift */,
-				19C3327D224067890084E54C /* CollabDiscoverView.swift */,
-				19C3327B2240578B0084E54C /* CollabSearchView.swift */,
-				19C33277224050630084E54C /* CollabLoginView.swift */,
-				19C3326D223F37280084E54C /* TabGeneralView.swift */,
-				19C33275223FFCD00084E54C /* CollabSignupView.swift */,
-				19C33245223F31E40084E54C /* CollabAccountView.swift */,
-				19C3326F223F4FC30084E54C /* AppView.swift */,
-				19C33261223F33BA0084E54C /* TabBarController.swift */,
-				19C33273223F747D0084E54C /* tabView.swift */,
-				19C33233223F30610084E54C /* AppDelegate.swift */,
+				199F2F0A225AD986002C8C46 /* ProfileGeneralViewController.swift */,
+				199F2F08225AD85E002C8C46 /* ProfileGeneralView.swift */,
+				19C33245223F31E40084E54C /* AccountInitialView.swift */,
+				199F2F06225AD48F002C8C46 /* AccountCustomizerViewController.swift */,
+				197D78A62246E4B00036996C /* AccountCustomizerView.swift */,
+				197D78B422487BE00036996C /* AccountInitialViewController.swift */,
+				196728D92252EB7B003BFED1 /* AccountLoginViewController.swift */,
+				196728DB2252EF57003BFED1 /* AccountSignupViewController.swift */,
+				199F2EF22252F774002C8C46 /* SearchGeneralViewController.swift */,
+				199F2F00225ACFF2002C8C46 /* AboutGeneralViewController.swift */,
+				19C33277224050630084E54C /* AccountLoginView.swift */,
+				19C33275223FFCD00084E54C /* AccountSignupView.swift */,
+				19C3327B2240578B0084E54C /* SearchGeneralView.swift */,
+				199F2F14225B2E8F002C8C46 /* SearchProfileView.swift */,
+				199F2F02225AD434002C8C46 /* AboutGeneralView.swift */,
 				19C3323A223F30610084E54C /* Assets.xcassets */,
-				19C33263223F341C0084E54C /* AccountViewController.swift */,
-				19C33248223F31E40084E54C /* LoginViewController.swift */,
-				19C33247223F31E40084E54C /* SignUpViewController.swift */,
-				19C33237223F30610084E54C /* Main.storyboard */,
-				19C33265223F35E90084E54C /* ProfileViewController.swift */,
-				19C3323C223F30610084E54C /* LaunchScreen.storyboard */,
-				19C33267223F36000084E54C /* SearchViewController.swift */,
+				19C33273223F747D0084E54C /* CollabTabView.swift */,
+				19C3326D223F37280084E54C /* CollabTabGeneralView.swift */,
 				19C3323F223F30610084E54C /* Info.plist */,
-				19C3326B223F36260084E54C /* MapViewController.swift */,
-				19C33235223F30610084E54C /* ViewController.swift */,
-				19C33269223F36160084E54C /* DiscoverViewController.swift */,
+				196728D52252E555003BFED1 /* HomeView.swift */,
+				19C33246223F31E40084E54C /* CollabGeneralView.swift */,
+				199F2F0C225B2814002C8C46 /* tempFileView.swift */,
+				199F2F0E225B2832002C8C46 /* TempFileViewController.swift */,
+				199F2F12225B2D16002C8C46 /* ProfileOtherView.swift */,
+				197D78AC2246E6D60036996C /* CollabUser.swift */,
+				19C33233223F30610084E54C /* AppDelegate.swift */,
+				199F2F16225D6FBB002C8C46 /* AppController.swift */,
 			);
 			path = CollabClient;
 			sourceTree = "<group>";
@@ -207,14 +240,19 @@
 				19C33260223F32EE0084E54C /* profile info.PNG in Resources */,
 				19C33258223F32EE0084E54C /* map.PNG in Resources */,
 				19C3325F223F32EE0084E54C /* sign up.PNG in Resources */,
+				199F2F25225DFB0F002C8C46 /* twitter logo.jpg in Resources */,
+				199F2F1F225DF6D5002C8C46 /* facebook.png in Resources */,
+				199F2F2F2260E236002C8C46 /* top part.PNG in Resources */,
 				19C3325A223F32EE0084E54C /* mountain background.png in Resources */,
-				19C3323E223F30610084E54C /* LaunchScreen.storyboard in Resources */,
+				199F2F2B2260DCA0002C8C46 /* profile image.png in Resources */,
 				19C3323B223F30610084E54C /* Assets.xcassets in Resources */,
+				199F2F2D2260DCB4002C8C46 /* search image.png in Resources */,
 				19C33259223F32EE0084E54C /* collab payment info.PNG in Resources */,
+				199F2F27225E8CAF002C8C46 /* Default-568h@2x.png in Resources */,
 				19C3325E223F32EE0084E54C /* search.PNG in Resources */,
-				19C3325D223F32EE0084E54C /* top part.PNG in Resources */,
-				19C33239223F30610084E54C /* Main.storyboard in Resources */,
+				199F2F20225DF6D5002C8C46 /* instagram logo.jpeg in Resources */,
 				19C3325C223F32EE0084E54C /* log in.PNG in Resources */,
+				199F2F292260DC3E002C8C46 /* back arrow.png in Resources */,
 				19C3325B223F32EE0084E54C /* discover.PNG in Resources */,
 				19C3327A224053B90084E54C /* Nyan.png in Resources */,
 			);
@@ -227,48 +265,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19C33268223F36000084E54C /* SearchViewController.swift in Sources */,
-				19C3327E224067890084E54C /* CollabDiscoverView.swift in Sources */,
-				19C3324C223F31E40084E54C /* LoginViewController.swift in Sources */,
 				19C3324A223F31E40084E54C /* CollabGeneralView.swift in Sources */,
-				19C33264223F341C0084E54C /* AccountViewController.swift in Sources */,
-				19C33236223F30610084E54C /* ViewController.swift in Sources */,
 				19C33234223F30610084E54C /* AppDelegate.swift in Sources */,
-				19C33262223F33BA0084E54C /* TabBarController.swift in Sources */,
-				19C3326C223F36260084E54C /* MapViewController.swift in Sources */,
-				19C33266223F35E90084E54C /* ProfileViewController.swift in Sources */,
-				19C3326E223F37280084E54C /* TabGeneralView.swift in Sources */,
-				19C33270223F4FC30084E54C /* AppView.swift in Sources */,
-				19C3326A223F36160084E54C /* DiscoverViewController.swift in Sources */,
-				19C33274223F747D0084E54C /* tabView.swift in Sources */,
-				19C33249223F31E40084E54C /* CollabAccountView.swift in Sources */,
-				19C3324B223F31E40084E54C /* SignUpViewController.swift in Sources */,
-				19C33276223FFCD00084E54C /* CollabSignupView.swift in Sources */,
-				19C33278224050630084E54C /* CollabLoginView.swift in Sources */,
-				19C3327C2240578B0084E54C /* CollabSearchView.swift in Sources */,
+				199F2F0D225B2814002C8C46 /* tempFileView.swift in Sources */,
+				199F2EF32252F774002C8C46 /* SearchGeneralViewController.swift in Sources */,
+				196728D62252E555003BFED1 /* HomeView.swift in Sources */,
+				199F2F0F225B2832002C8C46 /* TempFileViewController.swift in Sources */,
+				199F2F09225AD85E002C8C46 /* ProfileGeneralView.swift in Sources */,
+				199F2F03225AD434002C8C46 /* AboutGeneralView.swift in Sources */,
+				196728DA2252EB7B003BFED1 /* AccountLoginViewController.swift in Sources */,
+				19C3326E223F37280084E54C /* CollabTabGeneralView.swift in Sources */,
+				19C33274223F747D0084E54C /* CollabTabView.swift in Sources */,
+				199F2F01225ACFF2002C8C46 /* AboutGeneralViewController.swift in Sources */,
+				197D78AD2246E6D60036996C /* CollabUser.swift in Sources */,
+				199F2F0B225AD986002C8C46 /* ProfileGeneralViewController.swift in Sources */,
+				19C33249223F31E40084E54C /* AccountInitialView.swift in Sources */,
+				199F2F17225D6FBB002C8C46 /* AppController.swift in Sources */,
+				199F2F07225AD48F002C8C46 /* AccountCustomizerViewController.swift in Sources */,
+				199F2F13225B2D17002C8C46 /* ProfileOtherView.swift in Sources */,
+				19C33276223FFCD00084E54C /* AccountSignupView.swift in Sources */,
+				19C33278224050630084E54C /* AccountLoginView.swift in Sources */,
+				196728DC2252EF57003BFED1 /* AccountSignupViewController.swift in Sources */,
+				19C3327C2240578B0084E54C /* SearchGeneralView.swift in Sources */,
+				197D78A72246E4B00036996C /* AccountCustomizerView.swift in Sources */,
+				199F2F15225B2E8F002C8C46 /* SearchProfileView.swift in Sources */,
+				197D78B522487BE00036996C /* AccountInitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		19C33237223F30610084E54C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19C33238223F30610084E54C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		19C3323C223F30610084E54C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19C3323D223F30610084E54C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		19C33240223F30610084E54C /* Debug */ = {
