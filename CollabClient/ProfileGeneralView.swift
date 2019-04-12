@@ -278,5 +278,12 @@ class ProfileGeneralView: UIView {
         instaView.frame = CGRect(x: bounds.minX, y: bounds.midX, width: bounds.width, height: bounds.height * 0.25)
         closeNotification.frame = CGRect(x: bounds.maxX * 0.3, y: bounds.maxY * 0.25, width: bounds.maxX * 0.4, height: bounds.height * 0.1)
     }
+    
+    func hide() {
+        emailField.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
+        nameLabel.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
+        descriptionLabel.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
+        brandLabel.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
+    }
 }
 

@@ -22,7 +22,7 @@ class SearchGeneralView: UIView {
     }()
     lazy var innerView: UIView = {
         let view = UIView()
-        view.backgroundColor = .black
+        view.backgroundColor = .clear
         
         //let button: UIButton = UIButton()
         
@@ -138,16 +138,16 @@ class SearchGeneralView: UIView {
         text.frame = CGRect(x: bounds2.maxX * 0.1, y: bounds2.maxY * 0.3, width: bounds2.width * 0.65, height: bounds2.maxY * 0.4)
         //text.frame = CGRect(x: 5.0, y: 5.0, width: 30.0, height: 20.0)
         text.isUserInteractionEnabled = true
-        text.text = "h"
+        text.text = ""
         
         view.addSubview(text)
         
         //
         
         let searchButton: UIButton = UIButton()
-        let searchImage = UIImage(named: "Nyan.png")
+        let searchImage = UIImage(named: "search image.png")
         searchButton.setBackgroundImage(searchImage, for: .normal)
-        searchButton.frame = CGRect(x: bounds2.maxX * 0.80, y: bounds2.maxY * 0.3, width: bounds2.width * 0.15, height: bounds2.maxY * 0.4)
+        searchButton.frame = CGRect(x: bounds2.maxX * 0.80, y: bounds2.maxY * 0.2, width: bounds2.width * 0.15, height: bounds2.maxY * 0.4)
         view.addSubview(searchButton)
         
         //

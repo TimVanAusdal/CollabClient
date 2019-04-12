@@ -22,6 +22,13 @@ class SearchGeneralViewController: UIViewController {
         initView.tabView.ProfileView.button.addTarget(self, action: #selector(ProfileTabPressed), for: .touchUpInside)
         initView.tabView.SearchView.button.addTarget(self, action: #selector(SearchTabPressed), for: .touchUpInside)
         initView.tabView.AboutView.button.addTarget(self, action: #selector(AboutTabPressed), for: .touchUpInside)
+        initView.searchButton.addTarget(self, action: #selector(searchButtonPressed), for: .touchUpInside)
+    }
+    
+    @objc func searchButtonPressed() {
+        let profViewController = ProfileGeneralViewController()
+        profViewController.initView.hide()
+        present(profViewController, animated: true, completion: nil)
     }
     
     @objc func AccountTabPressed() {
